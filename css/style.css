@@ -1,0 +1,106 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #37474f;
+}
+
+.result-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+    padding: 20px !important;
+    line-height: 1;
+    background-color: #eee;
+}
+
+.result-card .ticket-price {
+    font-size: 2.333rem;
+}
+
+.result-card .sum-time {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.result-card .time {
+    font-size: 1.888rem;
+}
+
+.result-card .detailed {
+    margin-top: 5rem;
+}
+
+.col .bordered-right {
+    border-right: 1px dashed #b9b9b9;
+}
+
+.btn{
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.btn .place{
+    color:  red !important;
+}
+
+.window-registration { 
+    width: 30%;
+    height: 60%;
+    margin:  40 px auto;
+    background-color: #eee;
+    border: 1px solid #b9b9b9;
+    padding: 20px !important;
+    display: none;
+    position: absolute;
+    left: 35%;
+    bottom: 20%;
+    /* z-index: 150; */
+}
+
+.window-login {
+    width: 30%;
+    height: 50%;
+    margin:  40 px auto;
+    background-color: #eee;
+    border: 1px solid #b9b9b9;
+    padding: 20px !important;
+    display: none;
+    position: absolute;
+    left: 35%;
+    bottom: 30%;
+    z-index: 150;
+}
+
+#close-button {
+    cursor: pointer;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.header {
+    border-radius: 3px;
+}
+
+.header{
+    background-color: #455a64;
+    color: white;
+}
+
+.cont {
+    background-color: #455a64;
+    border-radius: 8px;
+}
+
+h3, h2, h6 {
+    color: white;
+}
+
+.num {
+    color: #eceff1;
+}
